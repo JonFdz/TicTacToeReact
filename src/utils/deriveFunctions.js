@@ -1,4 +1,4 @@
-import { INITIAL_GAME_BOARD, WINNING_COMBINATIONS } from "./constants.js";
+import { INITIAL_GAME_BOARD, WINNING_COMBINATIONS } from "../constants/gameConstants.js";
 
 export function deriveActivePlayer(gameTurns) {
 	let currentPlayer = "X";

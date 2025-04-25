@@ -4,8 +4,8 @@ import Player from "./components/Player.jsx";
 import GameBoard from "./components/GameBoard.jsx";
 import Log from "./components/Log.jsx";
 import GameOver from "./components/GameOver.jsx";
-import { PLAYERS } from "./constants.js";
-import { deriveActivePlayer, deriveGameBoard, deriveWinner } from "./derivefunctions.js";
+import { PLAYERS } from "./constants/gameConstants.js";
+import { deriveActivePlayer, deriveGameBoard, deriveWinner } from "./utils/deriveFunctions.js";
 
 function App() {
     const [players, setPlayers] = useState(PLAYERS);
